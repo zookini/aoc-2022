@@ -7,6 +7,7 @@ name = "aoc-2022"
 version = "0.1.0"
 dependencies = [
  "itertools",
+ "take-until",
 ]
 
 [[package]]
@@ -23,3 +24,9 @@ checksum = "b0fd2260e829bddf4cb6ea802289de2f86d6a7a690192fbe91b3f46e0f2c8473"
 dependencies = [
  "either",
 ]
+
+[[package]]
+name = "take-until"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b4e17d8598067a8c134af59cd33c1c263470e089924a11ab61cf61690919fe3b"
